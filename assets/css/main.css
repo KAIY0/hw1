@@ -1,89 +1,87 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .ai-c {
-    align-items: center;
+  align-items: center;
 }
 
 .bgc-boringblu {
-    background-color: rgb(37, 137, 189);
+  background-color: rgb(37, 137, 189);
 }
 
 .bgc-lime {
-    background-color: lime;
+  background-color: lime;
 }
 
 .bgc-limegreen {
-background-color: limegreen;
+  background-color: limegreen;
 }
 
 .c-white {
-    color: white;
+  color: white;
 }
 
 .d-f {
-    display: flex;
+  display: flex;
 }
 
 .ff-impact {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.fw-700{
-    font-weight: 700;
+.fw-700 {
+  font-weight: 700;
 }
 
 .fz-2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .jc-sb {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .lis-n {
-    list-style: none;
+  list-style: none;
 }
 
 .m0 {
-    margin: 0;
+  margin: 0;
 }
 
 .m1 {
-    margin-left: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .mt {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .p0 {
-    padding:0;
+  padding: 0;
 }
 
 .p {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .w-100 {
-    width: 100%;
+  width: 100%;
 }
-
-
 
 /* media query */
 @media (min-width: 768px) {
-    .d-f\@lrg {
-        display:flex;
-    }
+  .d-f\@lrg {
+    display: flex;
+  }
 
-.m1\@lrg {
+  .m1\@lrg {
     margin-left: 1.5rem;
-}
+  }
 }
