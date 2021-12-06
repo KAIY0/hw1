@@ -27,12 +27,20 @@ background-color: limegreen;
     color: white;
 }
 
-.w-100 {
-    width: 100%;
-}
-
 .d-f {
     display: flex;
+}
+
+.ff-impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+
+.fz-2 {
+    font-size: 2rem;
 }
 
 .jc-sb {
@@ -55,8 +63,16 @@ background-color: limegreen;
     margin-top: 1.5rem;
 }
 
+.p0 {
+    padding:0;
+}
+
 .p {
     padding: 1.5rem;
+}
+
+.w-100 {
+    width: 100%;
 }
 
 
@@ -66,4 +82,8 @@ background-color: limegreen;
     .d-f\@lrg {
         display:flex;
     }
+
+.m1\@lrg {
+    margin-left: 1.5rem;
+}
 }
